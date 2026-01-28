@@ -1,0 +1,96 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "3",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "4",
+      "title": "chu tu",
+      "views": "900",
+      "isDeleted": true
+    },
+    {
+      "id": "5",
+      "title": "to",
+      "views": "900",
+      "isDeleted": true
+    },
+    {
+      "id": "6",
+      "title": "hahah",
+      "views": "999",
+      "isDeleted": true
+    },
+    {
+      "id": "8",
+      "title": "nghiep",
+      "views": 90
+    },
+    {
+      "id": "9",
+      "title": "fe",
+      "views": "12",
+      "isDeleted": false
+    },
+    {
+      "id": "10",
+      "title": "fsd",
+      "views": "1111",
+      "isDeleted": true
+    },
+    {
+      "id": "11",
+      "title": "10 h",
+      "views": "7",
+      "isDeleted": true
+    },
+    {
+      "id": "12",
+      "title": "7 h ",
+      "views": "10",
+      "isDeleted": true
+    }
+  ],
+  "comments": [
+    {
+      "id": "-Infinity",
+      "text": "New comment",
+      "postId": "1",
+      "isDeleted": false
+    },
+    {
+      "id": "-Infinity",
+      "text": "New comment",
+      "postId": "1",
+      "isDeleted": false
+    },
+    {
+      "id": "-Infinity",
+      "text": "New comment",
+      "postId": "1",
+      "isDeleted": false
+    },
+    {
+      "id": "-Infinity",
+      "text": "New comment",
+      "postId": "1",
+      "isDeleted": false
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

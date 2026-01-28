@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Posts CRUD</title>
+    <script src="main.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 6px;
+            text-align: center;
+        }
+        .deleted {
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Posts</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Views</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="body_table">
+            <!-- LoadData() render -->
+        </tbody>
+    </table>
+
+    <h3>Add</h3>
+    <div>
+
+        <input type="text" id="title_txt" placeholder="Title">
+        <input type="text" id="view_txt" placeholder="Views">
+        <button onclick="Save()">Save</button>
+    </div>
+
+    <hr>
+
+    <h2>Comments (Demo CRUD)</h2>
+    <p>Mở DevTools (F12) để xem kết quả</p>
+
+    <button onclick="LoadComments('1')">Load comments của Post 1</button>
+    <button onclick="AddComment('1','New comment')">Add comment</button>
+    <button onclick="UpdateComment('1','Updated comment')">Update comment 1</button>
+    <button onclick="DeleteComment('1')">Delete comment 1</button>
+
+</body>
+</html>
